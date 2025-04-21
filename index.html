@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <form method="post">
+    <table>
+      <thead>
+        <tr><th colspan="2">Diner</th></tr>
+        <tr><th colspan="2">Personal information</th></tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td><label for="Name">Name:</label></td>
+          <td><input type="text" id="name" placeholder="Type your name here" size="30" maxlength="30" autofocus required></td>
+        </tr>
+        <tr>
+          <td><label for="Address">Address:</label></td>
+          <td><input type="text" id="name" placeholder="Type your address here" size="30" maxlength="30" autofocus required></td>
+        </tr>
+        <tr>
+          <td><label for="Contact">Contact number:</label></td>
+          <td><input type="text" id="name" placeholder="Type your contact number here" size="30" maxlength="30" autofocus required></td>
+        </tr>
+        <tr>
+          <td><label for="Email">Email address:</label></td>
+          <td><input type="text" id="name" placeholder="Type your email address here" size="30" maxlength="30" autofocus required></td>
+        </tr>
+        <tr>
+          <td><label for="input">Add note:</label></td>
+          <td><textarea name="input" id="input" rows="20" cols="30" placeholder="Add your note here"></textarea></td>
+        </tr>
+
+        <!-- MENU -->
+        <thead>
+          <th colspan="2">Menu</th>
+        </thead>
+
+        <tr>
+          <td rowspan="4">
+            <input type="checkbox" id="feature1" value="6ft">
+            <label for="feature1">Burger</label>
+          </td>
+          <td>
+            Patty:
+            <br>
+            <input type="radio" id="single" name="patty" value="single">
+            <label for="single">Single Patty</label>
+            <br>
+            <input type="radio" id="double" name="patty" value="double">
+            <label for="double">Double Patty</label>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Dressing:
+            <br>
+            <input type="checkbox" id="cheese" name="dressing" value="cheese">
+            <label for="cheese">Cheese</label>
+            <br>
+            <input type="checkbox" id="coleslaw" name="dressing" value="coleslaw">
+            <label for="coleslaw">Coleslaw</label>
+            <br>
+            <input type="checkbox" id="tomato" name="dressing" value="tomato">
+            <label for="tomato">Tomato</label>
+            <br>
+            <input type="checkbox" id="onion" name="dressing" value="onion">
+            <label for="onion">Onion</label>
+            <br>
+            <input type="checkbox" id="cucumber" name="dressing" value="cucumber">
+            <label for="cucumber">Cucumber</label>
+            <br>
+            <input type="checkbox" id="bacon" name="dressing" value="bacon">
+            <label for="bacon">Bacon</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            Buns:
+            <br>
+            <input type="radio" id="wheat" name="buns" value="wheat">
+            <label for="wheat">Wheat</label>
+            <br>
+            <input type="radio" id="honey" name="buns" value="honey">
+            <label for="honey">Honey</label>
+            <br>
+            <input type="radio" id="sugar" name="buns" value="sugar">
+            <label for="sugar">Sugar free</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="Quantity">Quantity: </label><input type="text" id="quantity" placeholder="Quantity" size="10" maxlength="30" autofocus required></td>
+        </tr>
+
+        <tr>
+            <td rowspan="2"><input type="checkbox" id="feature1" value="6ft">
+            <label for="feature1">Pasta</label></td>
+
+            <td>
+                Sauce:
+            <br>
+            <input type="radio" id="cheese" name="sauce" value="carbonara">
+            <label for="carbonara">Carbonara</label>
+            <br>
+            <input type="radio" id="pesto" name="sauce" value="pesto">
+            <label for="pesto">Pesto</label>
+            <br>
+            <input type="radio" id="spag" name="sauce" value="spag">
+            <label for="spag">Spaghetti</label>
+            <br>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="Quantity">Quantity: </label><input type="text" id="quantity" placeholder="Quantity" size="10" maxlength="30" autofocus required></td>
+        </tr>
+
+        <tr>
+            <td rowspan=""><input type="checkbox" id="feature1" value="6ft">
+                <label for="feature1">Fries</label></td>
+    
+                <td>
+                    Size:
+                <br>
+                <input type="radio" id="small" name="size" value="small">
+                <label for="small">Small</label>
+                <br>
+                <input type="radio" id="med" name="size" value="med">
+                <label for="med">Medium</label>
+                <br>
+                <input type="radio" id="lar" name="size" value="lar">
+                <label for="lar">Large</label>
+                <br>
+                
+                </td>
+        </tr>
+
+        <tr>
+            <td rowspan=""><input type="checkbox" id="feature1" value="6ft">
+                <label for="feature1">Drinks</label></td>
+    
+                <td>
+                    Size:
+                <br>
+                <input type="radio" id="small" name="size" value="small">
+                <label for="small">Small</label>
+                <br>
+                <input type="radio" id="med" name="size" value="med">
+                <label for="med">Medium</label>
+                <br>
+                <input type="radio" id="lar" name="size" value="lar">
+                <label for="lar">Large</label>
+                <br>
+                <label for="Drink">Type of Drink: </label><input type="text" id="quantity" placeholder="Drink" size="10" maxlength="30" autofocus required>
+                </td>
+        </tr>
+
+        <tr>
+            <td><label for="input">Feedback:</label></td>
+            <td><textarea name="input" id="input" rows="20" cols="30" placeholder="Add your feedback here"></textarea></td>
+          </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+            <td colspan="2">
+                <input type="radio" id="pck" name="mode" value="pck">
+                <label for="pck">Delivery</label>
+                
+                <input type="radio" id="pck" name="mode" value="pck">
+                <label for="pck">Pickup</label>
+            </td>
+        </tr>
+
+        <tr>
+            <th colspan="2"><input type="submit" value="Submit"></th>
+            </tr>
+      </tfoot>
+    </table>
+  </form>
+</body>
+</html>
